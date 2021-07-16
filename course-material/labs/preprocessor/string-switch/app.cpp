@@ -3,6 +3,11 @@
 // Write macros here
 
 
+#define SWITCH_STRING(string)   auto switchs = string;
+#define STRING_CASE(case)       if(switchs == #case)
+#define STRING_ELSE             else
+    
+
 
 int foo(std::string tag)
 {
